@@ -7,6 +7,16 @@ Support:
 How to:
 python3 dl.py URL                FILENAME
 python3 dl.py http://x.com/x.mp4 pirates.mp4
+
+# Unfinished dl saved as:
+pirates.mp4.part
+
+# Use exact same command to resume dl:
+python3 dl.py http://x.com/x.mp4 pirates.mp4
+
+# If server doesn't support content range,
+# unfinished file will be deleted,
+# and then start a complete new dl
 ```
 
 ## Notes 📝 
