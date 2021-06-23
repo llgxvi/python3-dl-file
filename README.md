@@ -49,4 +49,14 @@ f = open(fn, 'wb')
 shutil.copyfileobj(res, f)
 ```
 
+### res
+```
+pn(res.url)
+pn(res.getheaders())
+pn(res.headers)
+pn(res.status)
+pn(res.msg)
+pn(res.getheader('content-type'))
+pn(res.getheader('content-length'))
+```
 
